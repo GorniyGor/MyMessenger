@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="otf" type="PLAIN_TEXT" />
+      <mapping pattern="font_family" type="XML" />
     </extensionMap>
   </component>
 </application>
