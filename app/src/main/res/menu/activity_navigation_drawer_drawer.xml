@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_id_contacts"
+            android:icon="@drawable/contacts_icon"
+            android:title="@string/nav_text_contacts" />
+        <item
+            android:id="@+id/nav_id_chats"
+            android:icon="@drawable/chat_icon"
+            android:title="@string/nav_text_chats" />
+        <item
+            android:id="@+id/nav_id_trash"
+            android:icon="@drawable/trash_icon"
+            android:title="@string/nav_text_trash" />
+    </group>
+            <item
+                android:id="@+id/nav_id_settings"
+                android:icon="@drawable/settings_icon"
+                android:title="@string/nav_text_settings" />
+            <item
+                android:id="@+id/nav_id_logout"
+                android:icon="@drawable/logout_icon"
+                android:title="@string/nav_text_logout" />
+
+
+</menu>

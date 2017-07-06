@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4B5980"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:title="@string/toolbar_text_enter_phone"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/text1_setting_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="22sp"
+
+        android:layout_weight="2"
+        android:paddingTop="30sp"/>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#1a1D1D26"/>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#1a1D1D26"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:hint="@string/hint_input_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColorHint="#E1E1E1"
+        android:background="#00000000"
+
+        android:layout_weight="3"
+        android:layout_marginLeft="20sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="#1a1D1D26"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="@string/text2_setting_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#809B9B9B"
+        android:layout_weight="3"
+
+        android:paddingTop="20sp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="@string/text_button_setting_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0296B"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_weight="2"
+/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"/>
+
+</LinearLayout>
