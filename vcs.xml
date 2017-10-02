@@ -58,6 +58,10 @@
           <option name="url" value="https://github.com/googlesamples/android-architecture.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/MihailovJava/DaggerTest.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="H:\1_Desktop\AndroidStudioProjects\AppsForStudy" />
